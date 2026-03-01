@@ -1,80 +1,159 @@
-ADLAIRE PROPRIETARY SOURCE-AVAILABLE LICENSE
+ADLAIRE GROUP PROPRIETARY DOCUMENTATION LICENSE
 
-Version 0.1-1
+Version 1.0.0
 Copyright (c) 2026 Adlaire Group. All rights reserved.
 
-TERMS AND CONDITIONS
+===============================================================================
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 1. DEFINITIONS
-   "Software" refers to the Adlaire Framework Ecosystem and all associated 
-   source code, documentation, and materials.
-   "License" refers to this Adlaire Proprietary Source-Available License.
-   "You" refers to the individual or legal entity exercising rights under 
-   this License.
+
+   "Documentation" refers to all documents, specifications, project charters,
+   technical documentation, and related materials contained in this repository.
+   
+   "Adlaire Group" refers to the organization and all its divisions, segments,
+   and affiliated entities.
+   
+   "You" (or "Your") refers to an individual or legal entity exercising
+   rights under this License.
+   
+   "Internal Use" refers to use within Adlaire Group and its authorized
+   personnel only.
 
 2. GRANT OF RIGHTS
-   Subject to the terms of this License, Adlaire Group grants You a 
-   worldwide, non-exclusive, non-transferable license to:
+
+   Subject to the terms of this License, Adlaire Group grants the following
+   rights to authorized personnel:
    
-   a) View and study the source code
-   b) Use the Software for personal or commercial purposes without modification
-   c) Use the Software for educational purposes
+   a) View and read all Documentation for Internal Use
+   b) Reference and cite Documentation in internal projects and communications
+   c) Create derivative works based on Documentation for Internal Use only
+   d) Reproduce Documentation for Internal Use and archival purposes
 
 3. RESTRICTIONS
-   You may NOT:
+
+   You may NOT, without prior written authorization from Adlaire Group:
    
-   a) Modify, alter, or create derivative works of the Software
-   b) Distribute, sublicense, or transfer the Software to third parties
-   c) Remove or alter any copyright notices or this License
-   d) Use the Software in any way that violates applicable laws
-   e) Reverse engineer, decompile, or disassemble the Software
-   f) Use the Software name or trademarks without prior written permission
+   a) Disclose, publish, or distribute Documentation to any external parties
+   b) Remove or alter any copyright notices, confidentiality statements, or
+      this License from Documentation
+   c) Use Documentation for purposes outside of Adlaire Group projects
+   d) Share Documentation with unauthorized personnel or third parties
+   e) Create public derivative works based on Documentation
+   f) Use Adlaire Group trademarks or branding without explicit permission
 
-4. COMMERCIAL USE
-   Commercial use is permitted ONLY if:
+4. CONFIDENTIALITY
+
+   All Documentation in this repository is designated as CONFIDENTIAL and
+   PROPRIETARY to Adlaire Group:
    
-   a) The Software is used without any modifications
-   b) All copyright notices and this License remain intact
-   c) The Software is not resold or redistributed as a standalone product
+   a) Documentation marked as "社外秘" (Confidential) must not be disclosed
+      to external parties under any circumstances
+   b) Unauthorized disclosure may result in legal action and/or disciplinary
+      measures
+   c) You agree to maintain confidentiality even after termination of
+      employment or engagement with Adlaire Group
 
-5. INTELLECTUAL PROPERTY
-   All rights, title, and interest in and to the Software, including all 
-   copyrights, patents, trade secrets, and other intellectual property 
-   rights, are and will remain the exclusive property of Adlaire Group.
+5. AUTHORIZED USERS
 
-6. NO WARRANTY
-   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
-   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   Access to this repository is restricted to:
+   
+   a) Adlaire Group employees with appropriate authorization
+   b) Contractors and consultants under valid Non-Disclosure Agreements (NDAs)
+   c) Authorized partners with written permission from Adlaire Group management
+   d) Other parties explicitly authorized by project owners or management
 
-7. LIMITATION OF LIABILITY
-   IN NO EVENT SHALL ADLAIRE GROUP BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER 
-   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
-   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
-   DEALINGS IN THE SOFTWARE.
+6. INTELLECTUAL PROPERTY
 
-8. TERMINATION
-   This License is effective until terminated. Your rights under this License 
-   will terminate automatically without notice if You fail to comply with any 
-   of its terms.
+   All rights, title, and interest in and to the Documentation, including all
+   copyrights, trade secrets, and other intellectual property rights, are and
+   will remain the exclusive property of Adlaire Group.
+   
+   Ownership Authority: 
+   組織経営管理セグメント ゼネラルマネージャー兼
+   Adlaire Group DX事業セグメントグループ ゼネラルマネージャー
+   倉田 和宏
 
-9. GOVERNING LAW
-   This License shall be governed by and construed in accordance with the 
-   laws applicable in the jurisdiction of Adlaire Group.
+7. PROJECT-SPECIFIC LICENSES
 
-10. CONTACT
-    For permissions beyond the scope of this License, please contact:
+   Individual projects within this repository may have additional or specific
+   licensing terms documented within their respective directories (e.g., 
+   AFE/LICENSE). In case of conflicts, project-specific licenses take
+   precedence for materials within that project's scope.
+
+8. NO WARRANTY
+
+   THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   ACCURACY, COMPLETENESS, OR FITNESS FOR A PARTICULAR PURPOSE.
+
+9. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL ADLAIRE GROUP BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY ARISING FROM THE USE OF OR RELIANCE ON THE DOCUMENTATION.
+
+10. TERMINATION
+
+    Your rights under this License will terminate automatically without notice
+    if You:
+    
+    a) Fail to comply with any terms of this License
+    b) Are no longer an authorized user of Adlaire Group
+    c) Violate confidentiality obligations
+    
+    Upon termination, You must:
+    
+    a) Cease all use of Documentation
+    b) Delete or return all copies of Documentation in Your possession
+    c) Certify in writing that all copies have been deleted or returned
+
+11. EXTERNAL DISCLOSURE PROCEDURE
+
+    If Documentation needs to be shared with external parties:
+    
+    a) Written approval must be obtained from the project owner and
+       組織経営管理セグメント ゼネラルマネージャー
+    b) A Non-Disclosure Agreement (NDA) must be executed with the external party
+    c) Only the minimum necessary Documentation may be disclosed
+    d) All disclosures must be logged and tracked
+
+12. GOVERNING LAW
+
+    This License shall be governed by and construed in accordance with the
+    laws of Japan and any applicable international laws.
+
+13. AMENDMENTS
+
+    Adlaire Group reserves the right to modify this License at any time.
+    Continued use of Documentation after modifications constitutes acceptance
+    of the revised License.
+
+14. CONTACT INFORMATION
+
+    For questions, permissions, or licensing inquiries, please contact:
+    
     Adlaire Group
-    DX Business Segment
+    DX Division / 組織経営管理セグメント
+    
+    License Authority:
+    組織経営管理セグメント ゼネラルマネージャー兼
+    Adlaire Group DX事業セグメントグループ ゼネラルマネージャー
+    倉田 和宏
+
+===============================================================================
 
 END OF LICENSE
 
 ---
 
-This software uses the Adlaire Proprietary Source-Available License.
-You are free to view the source code and use it for personal or commercial 
-purposes without modification, but you may not modify, distribute, or 
-create derivative works.
+本リポジトリに含まれるすべてのドキュメントは、Adlaire Groupの機密情報です。
+Adlaire Groupの書面による事前許可なく、外部への開示・複製・転用を固く禁止します。
 
-For custom licensing options, enterprise support, or modification rights, 
-please contact Adlaire Group.
+All Documentation contained in this repository is confidential and proprietary
+to Adlaire Group. Unauthorized disclosure, reproduction, or distribution is
+strictly prohibited.
+
+---
+
+© 2026 Adlaire Group. All Rights Reserved.
