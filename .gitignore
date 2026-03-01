@@ -1,0 +1,267 @@
+# AdlaireGroup Documents Repository - Git Ignore Rules
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# IDE and Editor Files
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime/
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.atom/
+
+# =============================================================================
+# Temporary and Backup Files
+# =============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.old
+*.orig
+
+# Backup files
+*.backup
+*_backup
+*_old
+*.BAK
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# =============================================================================
+# Document-specific Files
+# =============================================================================
+
+# Compiled documentation
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# PDF build artifacts
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# LaTeX temporary files
+*.dvi
+*.xdv
+*-converted-to.*
+
+# =============================================================================
+# Archive and Compressed Files (generated)
+# =============================================================================
+
+# Archives (exclude if manually created for distribution)
+# Uncomment the following lines if you want to ignore all archives
+# *.7z
+# *.dmg
+# *.gz
+# *.iso
+# *.jar
+# *.rar
+# *.tar
+# *.zip
+
+# =============================================================================
+# Version Control
+# =============================================================================
+
+# Git conflict markers
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+# =============================================================================
+# Security and Sensitive Information
+# =============================================================================
+
+# Environment files (if any)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+*.crt
+
+# Secrets and credentials
+secrets/
+credentials/
+*.secret
+*.private
+
+# =============================================================================
+# Build and Distribution
+# =============================================================================
+
+# Build directories
+build/
+dist/
+target/
+bin/
+obj/
+
+# Node.js (if documentation tools use npm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python (if documentation tools use Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# =============================================================================
+# Project-specific Ignore Rules
+# =============================================================================
+
+# Draft documents (if you want to exclude)
+# *_DRAFT.md
+# DRAFT_*
+
+# Private notes
+PRIVATE_*.md
+*_PRIVATE.md
+notes/
+personal/
+
+# Generated reports
+reports/
+*.report
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+# Thumbnails
+*.thumb
+
+# Cache
+.cache/
+cache/
+
+# Coverage reports
+coverage/
+*.cover
+.coverage
+.coverage.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# END OF .gitignore
+# =============================================================================
