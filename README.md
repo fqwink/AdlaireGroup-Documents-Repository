@@ -10,7 +10,7 @@
 | **所有管理組織** | Adlaire Group |
 | **管理部門** | 組織経営管理セグメント / Adlaire Group DX Division |
 | **機密レベル** | 社外秘 |
-| **最終更新日** | 2026-03-01 |
+| **最終更新日** | 2026-03-02 |
 
 ---
 
@@ -35,13 +35,37 @@ AdlaireGroup-Documents-Repository/
 ├── LICENSE                # AdlaireGroup共通ライセンス
 ├── .gitignore             # Git除外設定
 │
-└── AFE/                   # Adlaire Framework Ecosystem
+├── AFE/                   # Adlaire Framework Ecosystem
+│   ├── README.md
+│   ├── PROJECT_CHARTER.md
+│   ├── FRAMEWORK_SPECIFICATION.md
+│   ├── VERSION_HISTORY.md
+│   ├── VERSIONING.md
+│   └── status-guideline.md
+│
+└── AFE-STD/               # AFE Standard Specifications
     ├── README.md
     ├── PROJECT_CHARTER.md
-    ├── FRAMEWORK_SPECIFICATION.md
     ├── VERSION_HISTORY.md
-    ├── VERSIONING.md
-    └── status-guideline.md
+    └── standards/         # 標準仕様・コーディング規則
+        ├── AFE-STD-100.md (命名規則)
+        ├── AFE-STD-101.md (オートローディング)
+        ├── AFE-STD-102.md (ディレクトリ構造)
+        ├── AFE-STD-200.md (クラス記述規則)
+        ├── AFE-STD-201.md (関数・メソッド規則)
+        ├── AFE-STD-202.md (制御構文規則)
+        ├── AFE-STD-203.md (例外処理規則)
+        ├── AFE-STD-300.md (ドキュメンテーション規則)
+        ├── AFE-STD-400.md (データベース命名規則)
+        ├── AFE-STD-401.md (マイグレーション規則)
+        ├── AFE-STD-402.md (モデル定義規則)
+        ├── AFE-STD-500.md (入力検証規則)
+        ├── AFE-STD-501.md (サニタイゼーション規則)
+        ├── AFE-STD-600.md (ユニットテスト規則)
+        ├── AFE-STD-601.md (統合テスト規則)
+        ├── AFE-STD-602.md (E2Eテスト規則)
+        ├── AFE-STD-603.md (カバレッジ規則)
+        └── AFE-STD-604.md (CI/CD規則)
 ```
 
 ### 今後の拡張
@@ -51,6 +75,7 @@ AdlaireGroup-Documents-Repository/
 ```
 AdlaireGroup-Documents-Repository/
 ├── AFE/                   # Adlaire Framework Ecosystem
+├── AFE-STD/               # AFE Standard Specifications
 ├── XXX/                   # 新規プロジェクト1（略称）
 └── YYY/                   # 新規プロジェクト2（略称）
 ```
@@ -64,6 +89,7 @@ AdlaireGroup-Documents-Repository/
 | 略称 | プロジェクト名 | ステータス | フェーズ | ドキュメントフォルダ |
 |------|--------------|----------|---------|------------------|
 | **AFE** | Adlaire Framework Ecosystem | ✅ 稼働中 | Phase 0 完了 | [`/AFE/`](./AFE/) |
+| **AFE-STD** | AFE Standard Specifications | ✅ 稼働中 | 標準策定中 | [`/AFE-STD/`](./AFE-STD/) |
 
 ### 今後追加予定
 
@@ -92,6 +118,57 @@ AdlaireGroup-Documents-Repository/
 | バージョン履歴 | [`AFE/VERSION_HISTORY.md`](./AFE/VERSION_HISTORY.md) | 変更履歴管理 |
 | バージョニング規則 | [`AFE/VERSIONING.md`](./AFE/VERSIONING.md) | バージョン表記ルール |
 | ステータスガイドライン | [`AFE/status-guideline.md`](./AFE/status-guideline.md) | ステータス記号定義 |
+
+---
+
+### [AFE-STD - AFE Standard Specifications](./AFE-STD/)
+
+**AFE独自標準仕様の策定・管理プロジェクト**
+
+- **目的**: AFEフレームワークで使用する独自標準仕様の策定と管理
+- **スコープ**: コーディング規則、命名規則、テスト規則、セキュリティ規則等
+- **現フェーズ**: 標準策定中
+- **特徴**: PSR等の外部標準に依存しない独自標準体系
+
+#### 主要ドキュメント
+
+| ドキュメント | ファイル | 説明 |
+|------------|---------|------|
+| プロジェクト概要 | [`AFE-STD/README.md`](./AFE-STD/README.md) | AFE-STDプロジェクト全体概要 |
+| プロジェクト憲章 | [`AFE-STD/PROJECT_CHARTER.md`](./AFE-STD/PROJECT_CHARTER.md) | プロジェクトの権限・目的・背景 |
+| バージョン履歴 | [`AFE-STD/VERSION_HISTORY.md`](./AFE-STD/VERSION_HISTORY.md) | 変更履歴管理 |
+
+#### 標準仕様一覧 ([`/AFE-STD/standards/`](./AFE-STD/standards/))
+
+**100番台: 基礎標準**
+- [`AFE-STD-100.md`](./AFE-STD/standards/AFE-STD-100.md) - 命名規則
+- [`AFE-STD-101.md`](./AFE-STD/standards/AFE-STD-101.md) - オートローディング仕様
+- [`AFE-STD-102.md`](./AFE-STD/standards/AFE-STD-102.md) - ディレクトリ構造標準
+
+**200番台: コーディング標準**
+- [`AFE-STD-200.md`](./AFE-STD/standards/AFE-STD-200.md) - クラス記述規則
+- [`AFE-STD-201.md`](./AFE-STD/standards/AFE-STD-201.md) - 関数・メソッド規則
+- [`AFE-STD-202.md`](./AFE-STD/standards/AFE-STD-202.md) - 制御構文規則
+- [`AFE-STD-203.md`](./AFE-STD/standards/AFE-STD-203.md) - 例外処理規則
+
+**300番台: ドキュメンテーション標準**
+- [`AFE-STD-300.md`](./AFE-STD/standards/AFE-STD-300.md) - ドキュメンテーション規則
+
+**400番台: データベース標準**
+- [`AFE-STD-400.md`](./AFE-STD/standards/AFE-STD-400.md) - データベース命名規則
+- [`AFE-STD-401.md`](./AFE-STD/standards/AFE-STD-401.md) - マイグレーション規則
+- [`AFE-STD-402.md`](./AFE-STD/standards/AFE-STD-402.md) - モデル定義規則
+
+**500番台: セキュリティ標準**
+- [`AFE-STD-500.md`](./AFE-STD/standards/AFE-STD-500.md) - 入力検証規則
+- [`AFE-STD-501.md`](./AFE-STD/standards/AFE-STD-501.md) - サニタイゼーション規則
+
+**600番台: テスト標準**
+- [`AFE-STD-600.md`](./AFE-STD/standards/AFE-STD-600.md) - ユニットテスト規則
+- [`AFE-STD-601.md`](./AFE-STD/standards/AFE-STD-601.md) - 統合テスト規則
+- [`AFE-STD-602.md`](./AFE-STD/standards/AFE-STD-602.md) - E2Eテスト規則
+- [`AFE-STD-603.md`](./AFE-STD/standards/AFE-STD-603.md) - カバレッジ規則
+- [`AFE-STD-604.md`](./AFE-STD/standards/AFE-STD-604.md) - CI/CD規則
 
 ---
 
