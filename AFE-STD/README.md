@@ -81,11 +81,11 @@ AdlaireGroup-Documents-Repository/
 | **AFE-STD-402** | `AFE-STD-402.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-500** | `AFE-STD-500.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-501** | `AFE-STD-501.md` | Ver.1.0-1 | ✅ 確定（初版） |
-| **AFE-STD-600** | `AFE-STD-600.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
-| **AFE-STD-601** | `AFE-STD-601.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
-| **AFE-STD-602** | `AFE-STD-602.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
-| **AFE-STD-603** | `AFE-STD-603.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
-| **AFE-STD-604** | `AFE-STD-604.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
+| **AFE-STD-600** | `AFE-STD-600.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-601** | `AFE-STD-601.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-602** | `AFE-STD-602.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-603** | `AFE-STD-603.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-604** | `AFE-STD-604.md` | Ver.1.0-1 | ✅ 確定（初版） |
 
 ---
 
@@ -103,8 +103,8 @@ AdlaireGroup-Documents-Repository/
 | ロギング | AFE-STD-400（ロガーIF）確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | HTTP | AFE-STD-200～203 確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | キャッシュ | AFE-STD-500〜501 確定 | ✅ 確定 | Ver.1.0-1 確定 |
-| アプリケーション | AFE-STD-600〜603 策定 | 🔧 策定中 | 初版ドラフト完成 |
-| Go連携 | AFE-STD-604 策定 | 🔧 策定中 | 初版ドラフト完成 |
+| アプリケーション | AFE-STD-600〜603 確定 | ✅ 確定 | Ver.1.0-1 確定 |
+| Go連携 | AFE-STD-604 確定 | ✅ 確定 | Ver.1.0-1 確定 |
 
 ---
 
