@@ -71,10 +71,10 @@ AdlaireGroup-Documents-Repository/
 | **AFE-STD-100** | `AFE-STD-100.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-101** | `AFE-STD-101.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-102** | `AFE-STD-102.md` | Ver.1.0-1 | ✅ 確定（初版） |
-| **AFE-STD-200** | `AFE-STD-200.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
-| **AFE-STD-201** | `AFE-STD-201.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
-| **AFE-STD-202** | `AFE-STD-202.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
-| **AFE-STD-203** | `AFE-STD-203.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
+| **AFE-STD-200** | `AFE-STD-200.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-201** | `AFE-STD-201.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-202** | `AFE-STD-202.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-203** | `AFE-STD-203.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-300** | `AFE-STD-300.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
 | **AFE-STD-400** | `AFE-STD-400.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
 | **AFE-STD-401** | `AFE-STD-401.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
@@ -101,7 +101,7 @@ AdlaireGroup-Documents-Repository/
 | コア標準 | AFE-STD-102（ディレクトリ構造）確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | コンテナ | AFE-STD-300（DIコンテナIF）策定 | 🔧 策定中 | 初版ドラフト完成 |
 | ロギング | AFE-STD-400（ロガーIF）策定 | 🔧 策定中 | 初版ドラフト完成 |
-| HTTP | AFE-STD-200〜203 策定 | 🔧 策定中 | 初版ドラフト完成 |
+| HTTP | AFE-STD-200～203 確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | キャッシュ | AFE-STD-500〜501 策定 | 🔧 策定中 | 初版ドラフト完成 |
 | アプリケーション | AFE-STD-600〜603 策定 | 🔧 策定中 | 初版ドラフト完成 |
 | Go連携 | AFE-STD-604 策定 | 🔧 策定中 | 初版ドラフト完成 |
