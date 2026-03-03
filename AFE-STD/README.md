@@ -75,7 +75,7 @@ AdlaireGroup-Documents-Repository/
 | **AFE-STD-201** | `AFE-STD-201.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-202** | `AFE-STD-202.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-203** | `AFE-STD-203.md` | Ver.1.0-1 | ✅ 確定（初版） |
-| **AFE-STD-300** | `AFE-STD-300.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
+| **AFE-STD-300** | `AFE-STD-300.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-400** | `AFE-STD-400.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
 | **AFE-STD-401** | `AFE-STD-401.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
 | **AFE-STD-402** | `AFE-STD-402.md` | Ver.0.1-1 | 🔧 策定中（初版ドラフト） |
@@ -99,7 +99,7 @@ AdlaireGroup-Documents-Repository/
 | コア標準 | AFE-STD-100（命名規則）確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | コア標準 | AFE-STD-101（オートローディング）確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | コア標準 | AFE-STD-102（ディレクトリ構造）確定 | ✅ 確定 | Ver.1.0-1 確定 |
-| コンテナ | AFE-STD-300（DIコンテナIF）策定 | 🔧 策定中 | 初版ドラフト完成 |
+| コンテナ | AFE-STD-300（DIコンテナIF）確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | ロギング | AFE-STD-400（ロガーIF）策定 | 🔧 策定中 | 初版ドラフト完成 |
 | HTTP | AFE-STD-200～203 確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | キャッシュ | AFE-STD-500〜501 策定 | 🔧 策定中 | 初版ドラフト完成 |
