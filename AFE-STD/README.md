@@ -9,7 +9,7 @@
 | **プロジェクト名** | AFE Standard |
 | **略称** | AFE-STD |
 | **所有管理組織** | Adlaire Group |
-| **現行バージョン** | Ver.1.0-1 |
+| **現行バージョン** | Ver.1.0-2 |
 | **現フェーズ** | ✅ Phase 0 完了 / Phase 1 準備中 |
 | **機密レベル** | 社外秘 |
 
@@ -51,6 +51,7 @@ AdlaireGroup-Documents-Repository/
 | **ロギング・イベント・時刻標準** | 4xx | ロガー・イベントディスパッチャー・クロック |
 | **キャッシュ標準** | 5xx | キャッシュIF・シンプルキャッシュ |
 | **アプリケーション標準** | 6xx | ORM・認証認可・バリデーション・CLI・Go連携 |
+| **パッケージマネージャ標準** | 1xx (105~) | パッケージ管理・リポジトリ・設定ファイル |
 
 ---
 
@@ -60,7 +61,7 @@ AdlaireGroup-Documents-Repository/
 
 | ドキュメント | ファイル名 | バージョン | ステータス |
 |---|---|---|---|
-| プロジェクト概要 | `README.md` | Ver.0.1-5 | ✅ 確定 |
+| プロジェクト概要 | `README.md` | Ver.1.0-2 | ✅ 確定 |
 | プロジェクト憲章 | `PROJECT_CHARTER.md` | Ver.0.1-2 | ✅ 確定 |
 | バージョン管理履歴 | `VERSION_HISTORY.md` | Ver.0.1-6 | ✅ 確定 |
 
@@ -86,6 +87,9 @@ AdlaireGroup-Documents-Repository/
 | **AFE-STD-602** | `AFE-STD-602.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-603** | `AFE-STD-603.md` | Ver.1.0-1 | ✅ 確定（初版） |
 | **AFE-STD-604** | `AFE-STD-604.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-105** | `AFE-STD-105.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-106** | `AFE-STD-106.md` | Ver.1.0-1 | ✅ 確定（初版） |
+| **AFE-STD-107** | `AFE-STD-107.md` | Ver.1.0-1 | ✅ 確定（初版） |
 
 ---
 
@@ -105,6 +109,9 @@ AdlaireGroup-Documents-Repository/
 | キャッシュ | AFE-STD-500〜501 確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | アプリケーション | AFE-STD-600〜603 確定 | ✅ 確定 | Ver.1.0-1 確定 |
 | Go連携 | AFE-STD-604 確定 | ✅ 確定 | Ver.1.0-1 確定 |
+| パッケージマネージャ | AFE-STD-105（Package Manager IF）確定 | ✅ 確定 | Ver.1.0-1 確定 |
+| パッケージマネージャ | AFE-STD-106（Repository IF）確定 | ✅ 確定 | Ver.1.0-1 確定 |
+| パッケージマネージャ | AFE-STD-107（Configuration Standard）確定 | ✅ 確定 | Ver.1.0-1 確定 |
 
 ---
 
@@ -112,7 +119,7 @@ AdlaireGroup-Documents-Repository/
 
 | フェーズ | 内容 | 時期 | ステータス |
 |---|---|---|---|
-| **Phase 0** | プロジェクト立ち上げ・全18標準確定 | 2026 Q1 | ✅ 完了（2026-03-03） |
+| **Phase 0** | プロジェクト立ち上げ・全21標準確定 | 2026 Q1 | ✅ 完了（2026-03-05） |
 | **Phase 1** | コア標準（1xx）・コンテナ（3xx）・ロガー（4xx）策定 | 2026 Q2 | 🔜 将来予定（Phase 1） |
 | **Phase 2** | HTTP（2xx）・イベント（401）・キャッシュ（5xx）策定 | 2026 Q3 | 🔜 将来予定（Phase 2） |
 | **Phase 3** | アプリケーション標準（6xx-000〜603）策定 | 2026 Q4 | 🔜 将来予定（Phase 3） |
