@@ -1,8 +1,8 @@
 # バージョン管理履歴
 
 **ファイル名**: `VERSION_HISTORY.md`
-**バージョン**: Ver.1.0-1
-**最終更新**: 2026-03-03
+**バージョン**: Ver.1.0-2
+**最終更新**: 2026-03-05
 **作成部門**: Adlaire Group DX 事業セグメント
 **機密レベル**: 社外秘
 
@@ -225,6 +225,31 @@
 |-----------|--------|--------|----------|
 | Ver.0.1-7 | 2026-03-02 | 組織経営管理セグメント ゼネラルマネージャー兼 Adlaire Group DX事業セグメントグループ ゼネラルマネージャー 倉田 和宏 | 初版作成、全AFE-STD標準の履歴を一元管理 |
 | Ver.1.0-1 | 2026-03-03 | 組織経営管理セグメント ゼネラルマネージャー兼 Adlaire Group DX事業セグメントグループ ゼネラルマネージャー 倉田 和宏 | Phase 0 完了記録：全18標準確定（AFE-STD-100～604）、プロジェクトメジャーバージョンアップ（Ver.1.0-1） |
+| Ver.1.0-2 | 2026-03-05 | 組織経営管理セグメント ゼネラルマネージャー兼 Adlaire Group DX事業セグメントグループ ゼネラルマネージャー 倉田 和宏 | パッケージマネージャ標準追加：AFE-STD-105（Package Manager Interface）、AFE-STD-106（Package Repository Interface）、AFE-STD-107（Package Configuration Standard）を策定・確定。サードパーティパッケージ統合禁止、バージョン制約処理なし、常に最新版使用ルール確定。全21標準に拡大。 |
+
+---
+
+## standards/AFE-STD-105.md
+
+| バージョン | 改訂日 | 改訂者 | 改訂内容 |
+|-----------|--------|--------|----------|
+| Ver.1.0-1 | 2026-03-05 | 組織経営管理セグメント ゼネラルマネージャー兼 Adlaire Group DX事業セグメントグループ ゼネラルマネージャー 倉田 和宏 | 初版策定（Package Manager Interface 標準・PackageManagerInterface・InstallResultInterface・UpdateResultInterface・PackageInterface・ValidationResultInterface・AfeStandardsComplianceInterface 定義・サードパーティ禁止・常に最新版使用） |
+
+---
+
+## standards/AFE-STD-106.md
+
+| バージョン | 改訂日 | 改訂者 | 改訂内容 |
+|-----------|--------|--------|----------|
+| Ver.1.0-1 | 2026-03-05 | 組織経営管理セグメント ゼネラルマネージャー兼 Adlaire Group DX事業セグメントグループ ゼネラルマネージャー 倉田 和宏 | 初版策定（Package Repository Interface 標準・RepositoryInterface・GitRepositoryInterface・PathRepositoryInterface・AuthenticationInterface・PackageMetadataInterface・DownloadResultInterface 定義・Git/Path リポジトリ対応） |
+
+---
+
+## standards/AFE-STD-107.md
+
+| バージョン | 改訂日 | 改訂者 | 改訂内容 |
+|-----------|--------|--------|----------|
+| Ver.1.0-1 | 2026-03-05 | 組織経営管理セグメント ゼネラルマネージャー兼 Adlaire Group DX事業セグメントグループ ゼネラルマネージャー 倉田 和宏 | 初版策定（Package Configuration Standard・afe.json/afe.lock 完全仕様定義・Composer 非互換・バージョン制約なし・プロファイル機能・update-policy/security/standards/type-safety セクション定義） |
 
 ---
 
